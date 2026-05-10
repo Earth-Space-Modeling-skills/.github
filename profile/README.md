@@ -41,6 +41,19 @@ These repos are designed to be loaded as skills by AI coding agents (Claude Code
 ### Sea ice
 - 🟡 [cice-skill](https://github.com/Earth-Space-Modeling-skills/cice-skill), CICE Consortium sea-ice model
 
+## Partner skill repos
+
+These repos are maintained by collaborators in their own namespaces. They follow the same progressive-disclosure skill pattern and are part of the broader effort.
+
+### Heliophysics / space physics models
+- [laps-skill](https://github.com/huangzesen/laps-skill) (by @huangzesen), LingTai progressive-disclosure skill for [LAPS](https://github.com/chenshihelio/LAPS), the UCLA-Pseudo-Spectral 3D Hall-MHD Fortran code (by @chenshihelio)
+- [lingtai-batsrus-skill](https://github.com/huangzesen/lingtai-batsrus-skill) (by @huangzesen), skill for BATS-R-US, the Block-Adaptive Tree Solar-wind Roe-type Upwind Scheme MHD solver at the core of SWMF
+
+### Heliophysics observation / data access
+- [xhelio-cdaweb](https://github.com/huangzesen/xhelio-cdaweb) (by @huangzesen), NASA CDAWeb data access for heliophysics: MCP server + Python library
+- [xhelio-spice](https://github.com/huangzesen/xhelio-spice) (by @huangzesen), SPICE toolkit access for heliophysics
+- [xhelio-pds](https://github.com/huangzesen/xhelio-pds) (by @huangzesen), NASA PDS (Planetary Data System) access for heliophysics
+
 ## Layout of a skill repo
 
 ```
